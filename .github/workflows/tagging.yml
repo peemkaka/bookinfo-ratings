@@ -35,4 +35,4 @@ jobs:
         with:
           src: ghcr.io/peemkaka/bookinfo-ratings:uat
           dst: |
-            ghcr.io/peekaka/bookinfo-ratings:${{needs.git-tag.outputs.tag-version}}
+            ghcr.io/peemkaka/bookinfo-ratings:${{needs.git-tag.outputs.tag-version}}
